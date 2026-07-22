@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunrise Traders | Real-Time Synthetic Markets</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">🌅 Sunrise Traders</div>
+    <nav>
+      <a href="#live-ticker">Markets</a>
+      <!-- REPLACE WITH YOUR DERIV AFFILIATE LINK LATER -->
+      <a href="https://track.deriv.com/redirect.cgi?a=YOUR_AFFILIATE_ID" target="_blank" class="btn-primary">Open Account</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Trade Derived Synthetic Indices 24/7</h1>
+    <p>Live, low-latency market analysis and real-time feeds powered by Sunrise Traders.</p>
+    <div class="hero-actions">
+      <!-- REPLACE WITH YOUR DERIV AFFILIATE LINK LATER -->
+      <a href="https://track.deriv.com/redirect.cgi?a=YOUR_AFFILIATE_ID" target="_blank" class="btn-hero">Start Trading Free</a>
+    </div>
+  </section>
+
+  <!-- Real-Time Ticker Section -->
+  <section id="live-ticker" class="ticker-section">
+    <h2>Live Volatility Indices</h2>
+    <p class="subtitle">Connected to Deriv WebSocket API</p>
+    
+    <div class="ticker-grid">
+      <div class="card">
+        <h3>Volatility 100 Index</h3>
+        <div class="price" id="price-R_100">Connecting...</div>
+        <span class="status-badge">Live</span>
+      </div>
+
+      <div class="card">
+        <h3>Volatility 75 Index</h3>
+        <div class="price" id="price-R_75">Connecting...</div>
+        <span class="status-badge">Live</span>
+      </div>
+
+      <div class="card">
+        <h3>Volatility 50 Index</h3>
+        <div class="price" id="price-R_50">Connecting...</div>
+        <span class="status-badge">Live</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Risk Disclaimer -->
+  <footer class="footer">
+    <p><strong>Risk Warning:</strong> Trading derivatives and synthetic indices carries a high level of risk. Past performance does not guarantee future results.</p>
+    <p>&copy; 2026 Sunrise Traders. Powered by Deriv API.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
